@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Site</title>
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+   
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/music.css">
+</head>
+<body>
+    <div class="home">
+        <div class="circle-home">
+            <div class="circle">
+                <button class="open"> 
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+                <button class="close">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+
+        <video src="../video/explore.mp4" muted loop autoplay></video>
+
+        <div class="content">
+            <audio id="applause"         src="../music/applause.mp3"></audio>
+            <audio id="birds-singing"    src="../music/birds-singing.mp3"></audio>
+            <audio id="crowd-laugh"      src="../music/crowd-laugh.mp3"></audio>
+            <audio id="game-suspense"    src="../music/game-suspense-waiting.mp3"></audio>
+            <audio id="light-rain"       src="../music/light-rain-loop.mp3"></audio>
+            <audio id="light-bird"       src="../music/little-bird-chirp.mp3"></audio>
+            <audio id="rain-and-thunder" src="../music/rain-and-thunder.mp3"></audio>
+            <audio id="sweep-transition" src="../music/sweep-transition.mp3"></audio>
+            <audio id="woosh-wind"       src="../music/woosh-wind.mp3"></audio>    
+            <button id="music-buttons">
+                <h1>Click buttons to hear Sounds</h1>
+                <p style="margin-bottom: 50px; font-size: 18px; color: rgb(239, 238, 247);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis amet deleniti nisi exercitationem. Ratione, deserunt excepturi molestiae, rem facilis, esse vel quaerat nobis a exercitationem quasi commodi libero hic dolor!</p>
+            </button>
+            
+        </div>
+
+        <footer>
+            <p>Harshita Web Design &copy;2021</p>
+        </footer>
+
+    </div>
+
+    <nav>
+        <ul>
+            <li><i class="fa fa-home" aria-hidden="true"></i>     <a href="../index.html">Home</a>    </li>
+            <li><i class="fa fa-bars" aria-hidden="true"></i>     <a href="./menu.html">Menu</a>    </li>
+            <li><i class="fa fa-camera" aria-hidden="true"></i>   <a href="./gallary.html">Gallary</a></li>
+            <li><i class="fa fa-music" aria-hidden="true"></i>    <a href="./music.html">Music</a></li>
+            <li><i class="fa fa-user-alt" aria-hidden="true"></i> <a href="./about.html">About</a>   </li>
+            <li><i class="fa fa-envelope" aria-hidden="true"></i> <a href="./contact.html">Contact</a>  </li>
+        </ul>
+
+    </nav>
+
+    <script src="../JS/music.js"></script>
+    <script src="../JS/app.js"></script>
+</body>
+</html>

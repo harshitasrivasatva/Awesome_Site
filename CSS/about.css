@@ -1,0 +1,40 @@
+/* ---- ABOUT ---- */
+
+.dark{
+    background-color: #091b69;
+    padding: 20px 40px;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 100px;
+}
+
+#main-col{
+    float: left;
+    width: 65%;
+}
+
+.aboutUs{
+    font-size: 16px;
+    clear: both;
+    padding-top: 40px;
+    font-style: italic;
+}
+
+.page-title{
+    text-align: center;
+}
+
+@media(max-width: 800px){
+    #main-col,#sidebar{
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    .aboutUs{
+        padding-bottom: 50px;
+    }
+}
